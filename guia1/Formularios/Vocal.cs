@@ -8,13 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace guia1
+namespace guia1.Formularios
 {
-    public partial class Form1 : Form
+    public partial class Vocal : Form
     {
-        public Form1()
+        public Vocal()
         {
             InitializeComponent();
+        }
+
+        private void Vocal_Load(object sender, EventArgs e)
+        {
         }
     }
 }

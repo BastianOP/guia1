@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guia1", "guia1\guia1.csproj", "{F7408FDF-B411-413B-A3D5-DDA09B7140EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formularios", "Formularios", "{D654BF2C-160F-41AD-A1BA-CB11B4015DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromedioSimple", "PromedioSimple\PromedioSimple.csproj", "{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{F7408FDF-B411-413B-A3D5-DDA09B7140EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7408FDF-B411-413B-A3D5-DDA09B7140EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7408FDF-B411-413B-A3D5-DDA09B7140EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A02FBE77-2DD2-4B68-B80A-5CC9E41C30A7} = {D654BF2C-160F-41AD-A1BA-CB11B4015DD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F821363-D6EC-4B0E-8A1B-8A2033C153D2}
